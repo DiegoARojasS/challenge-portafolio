@@ -1,0 +1,375 @@
+/* Ajustes generales de la página*/
+html{
+    background: #E5E5E5;
+    .playfair-display-font {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+p{
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header*/
+.caja-navegacion {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 3rem 3rem 3rem;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 15px;
+}
+
+/*Body Presentación*/
+.bloque-presentacion{
+    background-image: url('img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5% 0;
+    gap: 1.5rem;
+    width: auto;
+}
+
+.bloque-presentacion h1{
+    padding-bottom: 1.5rem;
+}
+
+.bloque-presentacion p{
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.caja-presentacion{
+    width: 70%;
+}
+
+#foto-perfil{
+    max-width: 20%;
+    padding: 1rem 0;
+  }
+
+.navegacion-redes{
+    display: flex;
+    gap:inherit;
+    align-items: flex-start;
+    width: auto;
+    padding-bottom: 1rem;
+}
+
+/* Body Sobre mi*/
+.bloque-sobre-mi{
+    padding: 0 3rem 3rem;
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-sobre-mi{
+    width: 65%;
+}
+
+.caja-sobre-mi p{
+    padding-bottom: 1rem;
+}
+
+.lista-datos-personales{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding-top: 80px;
+}
+
+.lista-datos-personales li{
+    display: flex;
+    align-items: center;
+}
+
+.lista-datos-personales svg{
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+/* Body Skills y Hobbies*/
+.bloque-skills-hobbies{
+    padding: 0 3rem 3rem;
+}
+
+.titulo-centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.bloque-skills-hobbies ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.bloque-skills-hobbies li{
+    background: #FFFFFF;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1%;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+/* Body Formación Académica*/
+.bloque-formacion{
+    background: #EAF2FD;
+}
+
+.bloque-formacion ul{
+    list-style: none;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+}
+
+.bloque-formacion li{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    width: 12rem;
+    height: 15rem;
+    padding: 2rem 4rem;
+}
+
+.bloque-formación img{
+    padding-top: 1rem;
+}
+
+.bloque-formacion h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bloque-formacion p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+/*Body Exp*/
+.caja-proyecto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.caja-proyecto img{
+    padding-right: 1rem;
+    width: 65%;
+}
+
+.caja-descripcion p{
+    padding-top: .5rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.caja-descripcion img{
+    padding-bottom: 1rem;
+    width: auto;
+}
+
+.caja-descripcion ul{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.boton-rep{
+    background: transparent;
+    border-color: #2a7ae4;
+    width: 6rem;
+    height: 3rem;
+}
+
+.boton-rep a{
+    color: #2a7ae4;
+}
+
+.boton-demo{
+    background: #2a7ae4;
+    border-color: #2a7ae4;
+    width: 6rem;
+    height: 3rem;
+}
+
+.boton-demo a{
+    color: #FFFFFF;
+}
+
+/*Body Contacto*/
+.bloque-contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #EAF2FD;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.bloque-contacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.boton-enviar{
+    background: #2a7ae4;
+    border-color: #2a7ae4;
+    color: #FFFFFF;
+    width: 8rem;
+    height: 3rem;
+}
+
+footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .navegacion-principal{
+        display: none;
+    }
+    .bloque-skills-hobbies ul{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .bloque-contacto{
+        padding-top: 48px;
+    }
+    .bloque-contacto img{
+        display: none;
+    }
+    .bloque-contacto h2{
+        padding-top: 0;
+    }
+    .caja-contacto p{
+        padding-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .bloque-presentacion{
+        flex-direction: column;
+        align-items: center;
+    }
+    #foto-perfil {
+      min-width: 150px;
+      order: -1;
+      margin-top: 2rem;
+    }
+    .caja-presentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navegacion-redes{
+        gap: 4%;
+        font-size: 0.8rem;
+    }
+    .bloque-sobre-mi{
+        flex-direction: column;
+    }
+    .caja-sobre-mi{
+        width: 100%;
+    }
+    .caja-datos-personales{
+        padding-left: 1rem;
+    }
+    .bloque-formacion h3 {
+        width: max-content;
+    }
+    .caja-proyecto{
+        flex-direction: column;
+    }
+    #encriptador-imagen{
+        padding: 0%;
+        width: 100%;
+    }
+    .caja-descripcion{
+        padding-top: 2rem;
+    }
+    .caja-contacto{
+        width: 80%;
+        padding: 0 1.5rem;
+    }
+    .caja-contacto p{
+        padding-bottom: 1rem;
+    }
+  }

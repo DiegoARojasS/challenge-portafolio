@@ -1,11 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Diego Rojas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="caja-navegacion">
+            <h3>Diego Rojas</h3>
+            <nav class="navegacion-principal">
+                <ul class="menu-principal">
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">diego.rojas.sanchez@hotmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="bloque-presentacion">
+            <div class="caja-presentacion">
+                <h1>Hola, mi nombre es Diego Rojas y construyo paginas web</h1>
+                <p>Estoy formado en front end y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+                <nav>
+                    <ul class="navegacion-redes">
+                        <li><a href="https://github.com/DiegoARojasS">Github <img src="img/arrow_back_black_24dp 1.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/darojasshdf/">Linkedin <img src="img/arrow_back_black_24dp 1.png"></a></li>
+                        <li><a href="https://www.instagram.com/diego.rojas.s/">Instagram <img src="img/arrow_back_black_24dp 1.png"></a></li>
+                        <li><a href="#">Currículo <img src="img/arrow_back_black_24dp 1.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img id="foto-perfil" src="img/Imagen Diego.png" alt="Foto de Diego Rojas">
+        </section>
+
+        <section class="bloque-sobre-mi" id="sobre-mi">
+            <div class="caja-sobre-mi">
+                <h2>Sobre mi</h2>
+                <p>Mi nombre es Diego y soy desarrollador web front-end con una pasión por crear páginas web intuitivas y atractivas. Completé mis estudios de bachillerato en la preparatoria UVM, donde tomé algunas clases extracurriculares de introducción a la programación. Poseo certificaciones en diversos cursos de plataformas como Udemy y Alura, incluyendo fundamentos de programación, uso de HTML, JavaScript y CSS. Además, actualmente formo parte del programa ONE.</p>
+
+                <p>Desde pequeño he mostrado afinidad y gusto por entender en el funcionamiento de medios digitales. Mis habilidades incluyen HTML, CSS, JavaScript, Git, y diseño responsivo. Mi objetivo es seguir aprendiendo y creando, para poder proporcionar experiencias digitales que hagan la vida de las personas más fácil y placentera.</p>
+
+                <img src="img/Firma.png" alt="Firma">
+            </div>
+            <div class="caja-datos-personales">
+                <ul class="lista-datos-personales">
+                    <li>23 Años</li>
+                    <li>Mazatlán, Sin., MX</li>
+                    <li><img src="img/mexican-flag.png" alt=""><span>Mexicano</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bloque-skills-hobbies" id="skills">
+            <h2 class="titulo-centrado">Soft skills</h2>
+            <ul class="lista-skills">
+                <li><img src="img/despertador.png">Trabajo bajo presión</li>
+                <li><img src="img/organización.png">Organización</li>
+                <li><img src="img/proactivo.png">Proactividad</li>
+                <li><img src="img/empatia.png">Empatia</li>
+                <li><img src="img/leadership.png">Liderazgo</li>
+                <li><img src="img/trabajo-en-equipo.png">Trabajo en equipo</li>
+            </ul>
+            <h2 class="titulo-centrado" id="hobbies">Hobbies</h2>
+            <ul class="lista-hobbies">
+                <li><img src="img/BJJ.png">BJJ</li>
+                <li><img src="img/airplane.png">Volar</li>
+                <li><img src="img/headphones_black_24dp 1.png">Escuchar música</li>
+                <li><img src="img/language.png">Idiomas</li>
+                <li><img src="img/luggage.png">Viajar</li>
+                <li><img src="img/terminal.png">Programar</li>
+            </ul>
+        </section>
+
+        <section class="bloque-formacion" id="formacion">
+            <h2 class="titulo-centrado">Formación académica</h2>
+            <ul>
+                <li>
+                    <img src="img/prepa-uvm.png" alt="">
+                    <h3>Bachillerato</h3>
+                    <p>2017 - 2019</p>
+                </li>
+                <li>
+                    <img src="img/udemy-logo.png" alt="">
+                    <h3>Fundamentos de programación</h3>
+                    <p>2024 - 2024</p>
+                </li>
+                <li>
+                    <img src="img/alura.png" alt="">
+                    <h3>Formación en Front End</h3>
+                    <p>2024 - En curso</p>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="bloque-exp-laboral" id="proyectos">
+            <h2 class="titulo-centrado">Experiencia laboral</h2>
+            <div class="caja-proyecto">
+                <img id="encriptador-imagen" src="img/encriptador-challenge.png" alt="Encriptador">
+
+                <div class="caja-descripcion">
+                    <h3>Encriptador de texto</h3>
+                    <p>En este proyecto, se elaboró un encriptador y desencriptador de texto funcional que permite al usuario ingresar cualquier texto que no incluya símbolos o números y convertirlo en un texto encriptado o viceversa. El resultado se muestra en el otro recuadro, con la función adicional de un botón para copiar el texto.</p>
+                    <img src="img/html5.png" alt="">
+                    <img src="img/css-file 1.png" alt="">
+                    <img src="img/js.png" alt="">
+                    <nav>
+                        <ul>
+                            <li><button class="boton-rep"><a href="https://github.com/DiegoARojasS/encriptador-de-texto">Repositorio</a></button></li>
+                            <li><button class="boton-demo"><a href="https://diegoarojass.github.io/encriptador-de-texto/">Demo</a></button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque-contacto" id="contacto">
+            <img src="img/phone.png" alt="phone">
+            <div class="caja-contacto">
+                <h2>Contacto</h2>
+                <p>¿Quieres contactarme?</p>
+                <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
     
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" required placeholder="Juan Pérez">
+    
+                    <label for="email">E-mail</label>
+                    <input type="email" required placeholder="email@dominio.com">
+    
+                    <label for="asunto">Asunto</label>
+                    <input type="text" required placeholder="...">
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" required placeholder="Escriba su mensaje..."></textarea>
+    
+                    <input type="submit" value="Enviar formulario" class="boton-enviar">
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Diego Rojas</p>
+        <p>2024</p>
+    </footer>
+
 </body>
 </html>
